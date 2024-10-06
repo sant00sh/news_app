@@ -10,6 +10,9 @@
 .svn/
 migrate_working_dir/
 
+# Ignore all files that start with a dot (.)
+.*
+
 # IntelliJ related
 *.iml
 *.ipr
@@ -41,3 +44,8 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Ignore generated .g.dart, .freezed.dart and .mocks.dart files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
